@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    text-shadow: none;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://i.pinimg.com/736x/cd/3c/e6/cd3ce6ce4d30e9788d55297e7ee6fdac.jpg);
+    text-decoration: none;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+  }
+  
+  h1 {
+    color: #ff69b4;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .date-form label {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .date-form input[type="date"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .date-form button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;   
+    
+  }
+ 
+  .date-form button:hover {
+    background-color: #ff1493;
+  }
+  
